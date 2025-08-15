@@ -5,8 +5,8 @@ function App() {
   const { user } = useAppContext();
   return (
     <>
-      <h1 className={'bg-red'} id={user?.id ?? ''}>Welcome {user?.name ?? 'Guest'} to My App</h1>
-      <p>This is a simple React application. {user?.name}</p>
+      <h1 className={'bg-red'} id={user?.id ?? ''}>Welcome {user?.name ?? 'Abishaaaa'} to My App</h1>
+      <p>Aalaga irukiga neega sirikkum poothu {user?.name}</p>
       <button onClick={() => alert('Button clicked!')}>Click Me!</button>
     </>
   )
